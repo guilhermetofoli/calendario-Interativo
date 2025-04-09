@@ -33,6 +33,12 @@ function colorirDia(){
         //Obtém a cor de fundo atual da célula//
         var corEstilo = estilo.backgroundColor; 
 
+        //Verifica a cor e incrementa contador correspondente//
+        if(corEstilo === "rgb(173, 216, 230)" || corEstilo === "lightblue"){
+            contadorAzul++;
+        } else if (corEstilo === "rgb(152,215,152)" || corEstilo === "palegreen"){
+            contadorVerde++;
+        } 
     }
 
 }
