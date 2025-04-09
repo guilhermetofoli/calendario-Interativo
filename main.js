@@ -26,7 +26,13 @@ function colorirDia(){
 
 
     let contadorAzul = 0, contadorVerde = 0, contadorRosa = 0, contadorRoxo= 0;
+    for (let i = 0; i < elementos.length; i++){
+        //Verifica o estilo de cada célula//
+        var estilo = window.getComputedStyle(elementos[i]);
 
-    //Loop para verificar o estilo de cada célula e contar quantas tem e qual cor//
+        //Obtém a cor de fundo atual da célula//
+        var corEstilo = estilo.backgroundColor; 
+
+    }
 
 }
