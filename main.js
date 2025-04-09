@@ -40,6 +40,8 @@ function colorirDia(){
             contadorVerde++;
         } else if (corEstilo === "rgb(255, 182, 193)" || corEstilo === "lightpink"){
             contadorRosa++;
+        } else if (corEstilo === "rgb(106, 90, 205)" || corEstilo === "slateblue"){
+            contadorRoxo++;
         }
     }
 
