@@ -38,7 +38,9 @@ function colorirDia(){
             contadorAzul++;
         } else if (corEstilo === "rgb(152,215,152)" || corEstilo === "palegreen"){
             contadorVerde++;
-        } 
+        } else if (corEstilo === "rgb(255, 182, 193)" || corEstilo === "lightpink"){
+            contadorRosa++;
+        }
     }
 
 }
